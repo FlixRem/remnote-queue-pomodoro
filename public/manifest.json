@@ -1,22 +1,23 @@
 {
   "manifestVersion": 1,
-  "id": "remnote-queue-pomodoro",
-  "name": "Queue Pomodoro Timer",
-  "author": "Jamesb",
-  "repoUrl": "https://github.com/bjsi/remnote-queue-pomodoro",
+  "id": "numberslikeanki",
+  "name": "Numbers Like Anki",
+  "author": "FlixRem",
+  "repoUrl": "https://github.com/FlixRem/NumberslikeAnki",
   "version": {
-    "major": 0,
+    "major": 1,
     "minor": 0,
-    "patch": 5
+    "patch": 0
   },
   "theme": [],
-  "enableOnMobile": true,
-  "description": "A pomodoro timer for the flashcard queue",
-  "requestNative": true,
+  "enableOnMobile": false,
+  "description": "Zeigt RemNote-Lernstatistiken im Anki-Stil an.",
+  "requestNative": false,
   "requiredScopes": [
     {
       "type": "All",
-      "level": "ReadCreateModify"
+      "level": "Read"
     }
-  ]
+  ],
+  "entrypoint": "src/index.tsx"
 }
